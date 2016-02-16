@@ -74,11 +74,11 @@ public class CompassView extends View {
 
     private void drawPath(Canvas canvas) {
 //        mPaint.setColor(Color.parseColor("#FF3366"));
-        mPath.moveTo(mCenterX,223);
+        mPath.moveTo(mCenterX,293);
         mPath.lineTo(mCenterX-30,mCenterY);
-        mPath.lineTo(mCenterX,2*mCenterY-223);
+        mPath.lineTo(mCenterX,2*mCenterY-293);
         mPath.lineTo(mCenterX+30,mCenterY);
-        mPath.lineTo(mCenterX,233);
+        mPath.lineTo(mCenterX,293);
         mPath.close();
 
         canvas.drawPath(mPath,mPaint);
@@ -88,7 +88,7 @@ public class CompassView extends View {
 
     private void drawCircle(Canvas canvas) {
         mPaint.setAlpha(255);
-        canvas.drawCircle(mCenterX,213,10,mPaint);
+        canvas.drawCircle(mCenterX,290,10,mPaint);
     }
 
     private void drawArc(Canvas canvas) {
@@ -96,7 +96,7 @@ public class CompassView extends View {
         for (int i = 0; i < 120; i++) {
 
             mPaint.setAlpha(255-(mAlpha * i/120));
-            canvas.drawLine(mCenterX, 180, mCenterX, 200, mPaint);
+            canvas.drawLine(mCenterX, 250, mCenterX, 270, mPaint);
             canvas.rotate(3,mCenterX,mCenterY);
         }
         canvas.restore();

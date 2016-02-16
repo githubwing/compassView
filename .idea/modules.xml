@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ThreeD.iml" filepath="$PROJECT_DIR$/ThreeD.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/compassView.iml" filepath="$PROJECT_DIR$/compassView.iml" />
     </modules>
   </component>
 </project>
