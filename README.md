@@ -1,5 +1,4 @@
-# compassView
-已废弃 
+## 已废弃 
 
 请移步至 https://github.com/githubwing/ThreeDLayout
 
